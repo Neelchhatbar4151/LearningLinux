@@ -10,4 +10,5 @@
     <li>clear → for cleaning terminal view</li>
     <li>history → to check command history</li>
     <li>echo [string] → to printing something</li>
+    <li>wc -l [file name] → It returns the numbers of lines exist in the given file</li>
 </ul>
