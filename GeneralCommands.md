@@ -5,12 +5,12 @@
     <li>ls → used to list items of current working directory</li>
     <li>ls -R → used to list items recursively means list all directories and file in current directory and also list all the files and directories inside those directories.</li>
     <li>ls -a → to list files along with hidden files</li>
-    <li>ls -l →to list all files with more details like read,wrie, execute permissions , Owner, group of users, creation time etc.., First character of each line denotes type of file
+    <li>ls -l →to list all files with more details like read,wrie, execute permissions , Owner, group of users, creation time etc.., First character of each line denotes type of file, First Line of output says "total [Some number]". this number indicates that the total number of disk blocks that the files in the current directory have occupied, The next nine characters following the file type character are the file permissions. Each column in succession gives the number of links, owner name, group name, size of file in bytes, date and time when the file was last modified, and finally the file name. And number of links means number of different file names that points to the same file.
         <ul>
             <li>- → Ordinary File</li>
             <li>d → Directory File</li>
-            <li>c → Character Special File</li>
-            <li>b → Block Special File</li>
+            <li>c → Character Special File(used to handle character oriented devices like terminal.These kind of files are found in /dev directory)</li>
+            <li>b → Block Special File(used to handle block oriented devices like disks. These kind of files are found in /dev directory.)</li>
             <li>l → Symbolic Link</li>
             <li>s → Semaphore</li>
             <li>p → Named Pipe</li>
