@@ -12,4 +12,5 @@
     <li>rm -rf [directory name] → Removes a Directory no matter wheather it is empty or not</li>
     <li>mkdir [directory name]→ Creates A directory At given location</li>
     <li>rmdir [directory name] → Deletes A directory at given location</li>
+    <li>nautilus . →  Opens File explorer in current working directory</li>
 </ul>
